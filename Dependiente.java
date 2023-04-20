@@ -30,5 +30,8 @@ public class Dependiente
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    
+    public void imprimirDetalles() {
+        System.out.println("Edad: "+ edad + "Nombre: "+nombre);
+    }
 }
