@@ -3,9 +3,9 @@ public class Sofa{
     
     private String materialSofa;
     
-    private String vendedorSofa;
+    private Dependiente vendedorSofa;
     
-    public Sofa(String marcaSofa, String materialSofa, String vendedorSofa){
+    public Sofa(String marcaSofa, String materialSofa, Dependiente vendedorSofa){
         this.marcaSofa = marcaSofa;
         this.materialSofa = materialSofa;
         this.vendedorSofa = vendedorSofa;
@@ -19,7 +19,7 @@ public class Sofa{
         return materialSofa;
     }
     
-    public String getvendedor() {
+    public Dependiente getvendedor() {
         return vendedorSofa;
     }
     
@@ -31,7 +31,7 @@ public class Sofa{
          this.materialSofa=materialSofa;
     }
     
-    public void setVendedor (String vendedorSofa) {
+    public void setVendedor (Dependiente vendedorSofa) {
          this.vendedorSofa=vendedorSofa;
     }
     
