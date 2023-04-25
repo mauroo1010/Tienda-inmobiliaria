@@ -23,15 +23,15 @@ public class Sofa{
         return vendedorSofa;
     }
     
-    public void setMarca(String marcaSofa) {
+    public void setMarca (String marcaSofa) {
          this.marcaSofa=marcaSofa;
     }
     
-    public void setMaterial(String materialSofa) {
+    public void setMaterial (String materialSofa) {
          this.materialSofa=materialSofa;
     }
     
-    public void setVendedor(String vendedorSofa) {
+    public void setVendedor (String vendedorSofa) {
          this.vendedorSofa=vendedorSofa;
     }
     }
