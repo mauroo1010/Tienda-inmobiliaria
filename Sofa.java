@@ -36,7 +36,7 @@ public class Sofa{
     }
     
     public void imprimirDetalles() {
-        System.out.println("Marca: "+ marcaSofa  + " Material: "+ materialSofa + " Vendedor: "+ vendedorSofa);
+        System.out.println("Marca: "+ marcaSofa  + " Material: "+ materialSofa + " nombre: " + vendedorSofa.getNombre() +" edad: " + vendedorSofa.getEdad());
     }
     }
 
