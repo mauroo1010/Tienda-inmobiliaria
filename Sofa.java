@@ -34,5 +34,9 @@ public class Sofa{
     public void setVendedor (String vendedorSofa) {
          this.vendedorSofa=vendedorSofa;
     }
+    
+    public void imprimirDetalles() {
+        System.out.println("Marca: "+ marcaSofa  + " Material: "+ materialSofa + " Vendedor: "+ vendedorSofa);
+    }
     }
 
